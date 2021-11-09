@@ -14,12 +14,12 @@ export default class DeviceStore {
             {id: 3, name: 'Samsung'},
         ]
         this._devices = [
-            this._types = [
+            
                 {id: 1, name: '12pro', price: 100000, rating: 0, img: "../server/static/28612da8-41be-4a5c-88c9-1c52953003b3jpeg"},
                 {id: 2, name: '12pro', price: 100000, rating: 0, img: "28612da8-41be-4a5c-88c9-1c52953003b3jpeg"},
                 {id: 3, name: '12pro', price: 100000, rating: 0, img: "28612da8-41be-4a5c-88c9-1c52953003b3jpeg"},
                 {id: 4, name: '12pro', price: 100000, rating: 0, img: "28612da8-41be-4a5c-88c9-1c52953003b3jpeg"},
-            ]
+            
 
         ]
         makeAutoObservable(this)

@@ -1,16 +1,17 @@
 import React from 'react';
 import { Container, Row , Col} from 'react-bootstrap';
+import TypeBar from "../components/TypeBar"
 
 const Shop = () => {
     return (
         <Container>
-            <Row>
+            <Row className="mt-3">
                 <Col md={3}>
-                    samsung
+                    <TypeBar/>
 
                 </Col>
                 <Col md={9}>
-                    apple
+                    
                     
                 </Col>
             </Row>
