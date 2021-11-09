@@ -9,7 +9,13 @@ const TypeBar = observer(() => {
     return (
         <ListGroup>
             {device.types.map(type => 
-                <ListGroupItem key={type.id}>
+                <ListGroupItem
+                style={{cursor: 'pointer'}}
+                active={type.id === device.selectedType.id} 
+                onClick={() => device.setSelectedType(type)}
+                key={type.id}
+                >
+                    
                     {type.name}
 
                 </ListGroupItem>)}
