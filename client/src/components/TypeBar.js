@@ -1,6 +1,6 @@
 import { useContext } from "react"
 import { ListGroup, ListGroupItem } from "react-bootstrap"
-import { Context } from ".."
+import { Context } from "../index"
 import { observer } from "mobx-react-lite"
 
 
